@@ -2,4 +2,15 @@ public class Average2 {
     /*
     Given two numbers, num1 and num2, output the average.
     */
+    public static void main(String[] args) {
+
+        int num1 = 47;
+        int num2 = 56;
+
+        int sumTotal = num1 + num2;
+        double average = sumTotal /2.0;
+
+        System.out.println("the average is " + average);
+
+    }
 }
